@@ -38,7 +38,7 @@ module.exports = {
   schema: {
     $id: 'http://express-gateway.io/schemas/plugin/keycloak-connect.json',
     kcConfigParams: {
-      title: 'Keycloak config parameters',
+      title: 'keycloak-connect config parameters',
       description: 'Parameters in case no config file exists',
       type: 'object'
     },

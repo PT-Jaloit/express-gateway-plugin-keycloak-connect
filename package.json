@@ -1,6 +1,6 @@
 {
-  "author": "",
-  "description": "Keycloak wrapper plugin for Express Gateway",
+  "author": "German L.",
+  "description": "keycloak-connect wrapper plugin for Express Gateway",
   "license": "Apache-2.0",
   "main": "manifest.js",
   "name": "express-gateway-plugin-keycloak-connect",
