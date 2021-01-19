@@ -5,7 +5,8 @@ Keycloak wrapper plugin for [Express Gateway](http://www.express-gateway.io/)
 ### Getting Started: 
 
 ```bash
-$ eg plugin install keycloak-connect
+
+$ eg plugin install express-gateway-plugin-keycloak-connect
 
 ```
 
@@ -18,14 +19,15 @@ You can use the default keycloak-connect config method with a 'keycloak.json' fi
 ```yaml
 plugins:
     keycloak-connect:
-        kcConfigParams:
-            realm: "my-realm"
-            auth-server-url: "https://kc-server.kc-domain.com/auth/"
-            ssl-required: "external"
-            bearer-only: true
-            resource: "client-id"
-            confidential-port: 0
-            realm-public-key: "G5w44344..."
+      package: express-gateway-plugin-keycloak-connect
+      kcConfigParams:
+          realm: "my-realm"
+          auth-server-url: "https://kc-server.kc-domain.com/auth/"
+          ssl-required: "external"
+          bearer-only: true
+          resource: "client-id"
+          confidential-port: 0
+          realm-public-key: "G5w44344..."
 ```
 
 * add to `gateway.config.yml`
