@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/germanllop/express-gateway-plugin-keycloak-connect.git"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": {
     "express-session": "^1.17.1",
     "keycloak-connect": "^12.0.1"
